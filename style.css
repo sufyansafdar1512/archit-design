@@ -43,7 +43,6 @@ div ul li {
 
 div.container-2 {
     background-color: rgb(13, 13, 96);
-    padding-bottom: 50px;
 }
 
 .container-2 p {
@@ -62,39 +61,25 @@ h2.heading-2 {
     text-align: center;
     font-size: 30px;
     color: white;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
-.box-row1 {
+.box-row {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
 }
 
-.box-row2 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-
-}
-
-div .div1,
-.div2 {
-    background-color: white;
-    margin-top: 30px;
-    width: 370px;
-    height: 170px;
-
-}
-
-div .div3,
+.div1,
+.div2,
+.div3,
 .div4 {
     background-color: white;
     margin-top: 30px;
     width: 370px;
     height: 170px;
+    flex-basis: 400px;
 }
 
 .div1,
