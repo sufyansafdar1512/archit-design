@@ -141,8 +141,7 @@ button {
 .box1,
 .box2,
 .box3 {
-/*     width: 200px; */
-    flex-basis: 100px;
+    width: 250px; 
     height: 110px;
     background-color: rgb(13, 13, 96);
     text-align: left;
