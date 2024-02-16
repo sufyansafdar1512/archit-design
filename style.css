@@ -50,6 +50,9 @@ div.container-2 {
 }
 
 div.container-3 {
+    background-image: url(contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     text-align: center;
     color: white;
@@ -68,7 +71,9 @@ h2.heading-2 {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    padding: 30px;
     justify-content: center;
+
 }
 
 .div1,
@@ -76,10 +81,11 @@ h2.heading-2 {
 .div3,
 .div4 {
     background-color: white;
-    margin-top: 30px;
-    width: 370px;
+    width: 350px;
     height: 170px;
+    padding: 10px;
     flex-basis: 400px;
+
 }
 
 .div1,
@@ -87,7 +93,7 @@ h2.heading-2 {
 .div3,
 .div4,
 h3 p {
-    padding-left: 7px;
+
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -125,8 +131,7 @@ button {
 }
 
 .threebox {
-
-    transform: translate(0%, -120%);
+    padding-top: 400px;
     justify-content: center;
     font-size: 14px;
     display: flex;
@@ -160,4 +165,5 @@ button {
         margin-top: 10px;
 
     }
+
 }
