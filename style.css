@@ -85,7 +85,7 @@ h2.heading-2 {
     height: 170px;
     padding: 10px;
     flex-basis: 300px;
-
+    border-radius: 15px;
 }
 
 .div1,
